@@ -1,4 +1,4 @@
-package com.dwaraka.springcloud.model;
+/*package com.dwaraka.springcloud.model;
 
 import java.math.BigDecimal;
 
@@ -45,4 +45,4 @@ public class Coupon {
 	}
 	
 
-}
+}*/
