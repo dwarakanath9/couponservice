@@ -16,18 +16,23 @@ import com.dwaraka.springcloud.repository.CouponRepository;
 @RequestMapping("/couponapi")
 public class CouponController {
 	
-	@Autowired
-	private CouponRepository couponRepository;
+// 	@Autowired
+// 	private CouponRepository couponRepository;
 	
-	@RequestMapping(value = "/coupons",method = RequestMethod.POST)
-	public Coupon create(@RequestBody Coupon coupon) {
-		return couponRepository.save(coupon);
+// 	@RequestMapping(value = "/coupons",method = RequestMethod.POST)
+// 	public Coupon create(@RequestBody Coupon coupon) {
+// 		return couponRepository.save(coupon);
 		
-	}
+// 	}
 	
-	@GetMapping(value = "/coupons/{code}")
-	public Coupon getCoupon(@PathVariable("code") String code) {
-		return couponRepository.findByCode(code);
+// 	@GetMapping(value = "/coupons/{code}")
+// 	public Coupon getCoupon(@PathVariable("code") String code) {
+// 		return couponRepository.findByCode(code);
+// 	}
+	
+	@GetMapping(value = "/getInfo")
+	public String getCoupon() {
+ 		return "User information 11111111111111111";
 	}
 
 }
