@@ -1,11 +1,11 @@
-package com.dwaraka.springcloud.repository;
+// package com.dwaraka.springcloud.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+// import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.dwaraka.springcloud.model.Coupon;
+// import com.dwaraka.springcloud.model.Coupon;
 
-public interface CouponRepository extends JpaRepository<Coupon, Long> {
+// public interface CouponRepository extends JpaRepository<Coupon, Long> {
 	
-	public Coupon findByCode(String code);
+// 	public Coupon findByCode(String code);
 
-}
+// }
